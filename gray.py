@@ -1,7 +1,7 @@
 import sys
 
 def gray(n):
-    if n < 0:
+    if n < 1:
         print('invalid input: argument n to gray(n) must be >= 0', file=sys.stderr)
         sys.exit(1)
     if n == 1:
